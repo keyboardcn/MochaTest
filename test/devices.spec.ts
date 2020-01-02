@@ -1,7 +1,7 @@
 import Devices from '../Devices';
 import { assert } from 'chai';
 
-describe('addDevice', function() {
+describe('Devices', function() {
     let devices = new Devices();
 
     it('array length should incease by 1 each time', function(){
